@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/DialogDefault"
+    android:id="@+id/dialog_layout_root"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/ll_dialog_default_background"
+    >
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/buildtown"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/imageView"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/AppMediumBlue"
+            android:textSize="24sp"
+            android:text="Medium Text"
+            android:id="@+id/tv_dialog_default_title" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/AppMediumBlue"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tv_dialog_default_text" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/white"
+            android:text="New Button"
+            android:background="@color/AppGreen"
+            android:layout_weight="0.5"
+            android:id="@+id/bt_dialog_default_accept" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:text="New Button"
+            android:background="@color/AppOrange"
+            android:layout_weight="0.5"
+            android:id="@+id/bt_dialog_default_cancel" />
+    </LinearLayout>
+</LinearLayout>

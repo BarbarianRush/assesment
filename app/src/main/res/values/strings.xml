@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assesment</string>
+    <string name="title_activity_main">Main menu</string>
+    <string name="gnomes_source">https://raw.githubusercontent.com/AXA-GROUP-SOLUTIONS/mobilefactory-test/master/data.json</string>
+</resources>

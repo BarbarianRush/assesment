@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Search Gnome:"
+        android:id="@+id/tv_fragment_gnomes_search_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_fragment_gnomes_search_title"
+        android:id="@+id/rl_fragment_gnomes_search_container"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_toLeftOf="@+id/bt_fragment_gnomes_search"
+            android:background="@drawable/et_login_background"
+            android:textColor="@color/white"
+            android:hint="Enter name"
+            android:textColorHint="@color/white"
+            android:id="@+id/et_fragment_gnomes_search" />
+
+        <Button
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/icono_lupa"
+            android:drawableLeft="@drawable/icono_lupa"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="10dp"
+            android:background="@color/AppOrange"
+            android:id="@+id/bt_fragment_gnomes_search" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/rl_fragment_gnomes_search_container"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Town inhabitants:"
+        android:id="@+id/tv_fragment_gnomes_list_title" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_fragment_gnomes_list_title"
+        android:requiresFadingEdge="vertical"
+        android:fadingEdgeLength="12dp"
+        android:id="@+id/lv_fragment_gnomes" />
+
+</RelativeLayout>

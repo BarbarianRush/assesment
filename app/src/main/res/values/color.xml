@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="White">#FFFFFF</color>
+    
+    
+    <color name="ActionBarBackground">#4D4D4D</color>
+    <color name="DefaultTextColor1">#DBDBDB</color>
+    <color name="Transparent">#00FFFFFF</color>
+    <color name="ListItemSelected">#33add6</color>
+    <color name="AppGreen">#a6b92f</color>
+    <color name="AppRed">#f83616</color>
+    <color name="AppOrange">#ff9b1e</color>
+    <color name="AppMediumBlue">#01447c</color>
+    <color name="AppLightBlue">#8dc3e7</color>
+    <color name="AppVLightBlue">#e9f3fb</color>
+    <color name="AppAVLightBlue">#d3e2f6</color>
+    <color name="AppWhiteTransparent">#55FFFFFF</color>
+    <color name="AppDarkBlue">#0c295e</color>
+    
+    
+    <!-- Colores genéricos -->
+    
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+    
+</resources>
